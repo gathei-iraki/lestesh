@@ -1,0 +1,105 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(128, 128, 128, 0.877);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgba(255, 255, 0, 0.692);
+  color: white;
+}
+body{
+  background-color:black;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ddd;
+  
+}
+.pic{
+  float: right;
+}
+#frm{
+  font-size: x-large;
+text-align: center;
+}
+.bttn{
+ 
+  text-align: center;
+ 
+}
+input[type=submit] {
+  width: 16em;  height: 2em;
+  background-color: gray;
+  border:2px  whitesmoke;
+  color: white;
+  padding: 15px 32px;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: x-large;
+  border-radius: 12px;
+  font-family: 'Viaoda Libre', cursive;
+  text-align: center;
+  margin: 8px 0;
+}
+input[type=submit]:hover {
+  background-color: 	red;
+  color: black;
+}
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Viaoda Libre', cursive;
+  border: 2px gainsboro;
+  border-radius: 4px;
+}
+input[type=text]:focus {
+  background-color: lightgray;
+}
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 40%;
+}
+            
+#mssg{
+  width: 97%;
+  height: 70%;
+  padding: 20px 20px;
+  margin: 8px 0;
+}
+ .textarea{
+  padding: 12px 20px;
+ }
+ .social{
+  background-color: rgba(128, 128, 128, 0.877);
+  opacity: 0.4;
+  font-weight: bold;
+  color: black;
+ }
+ .intro{
+  background-color: rgba(128, 128, 128, 0.877);
+ font-size: x-large;
+  color:white;
+  text-align: center;
+ }
